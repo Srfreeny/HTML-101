@@ -35,9 +35,7 @@ section {
     margin: 10px;
 
 }
-section: last-of-type {
-    margin-bottom: 50px;
-}
+
 
 footer {
     color: white; 
@@ -47,4 +45,13 @@ footer {
     left: 0;
     bottom: 0;
     height: 30px;
+}
+
+.card {
+    border: 10px solid blue;
+    width: 30%;
+}
+
+.card img {
+    height: 50 px;
 }
