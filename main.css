@@ -6,8 +6,8 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     background-color: #333;
     height: 40px;
     overflow: hidden;
@@ -27,4 +27,24 @@ li a {
 
 li a:hover {
     background-color: black;
+}
+
+section {
+    padding: 20px;
+    border: 10px solid;
+    margin: 10px;
+
+}
+section: last-of-type {
+    margin-bottom: 50px;
+}
+
+footer {
+    color: white; 
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 30px;
 }
